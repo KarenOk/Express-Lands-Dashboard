@@ -5,10 +5,13 @@ import avatar from "../images/avatar.png";
 import avatar2x from "../images/avatar@2x.png";
 import avatar3x from "../images/avatar@3x.png";
 
-function Header() {
+function pop() {
+    alert("hellp");
+}
+function Header(props) {
     return (
-        <header className="header">
-            <img src={menu} alt="Menu" class="menu" />
+        <header className={`header ${props.showSidebar ? "show-sidebar" : ""}`}>
+            <img src={menu} alt="Menu" class="menu" onClick={props.toggleSidebar} />
 
             <div className="user">
                 <img src={avatar} srcSet={`${avatar2x} 2x, ${avatar3x} 3x`} alt="Okonkwo Karen" className="avatar" />

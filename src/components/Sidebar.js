@@ -7,9 +7,9 @@ import approvalIcon from "../images/approval-icon.svg";
 
 
 
-function Sidebar() {
+function Sidebar(props) {
     return (
-        <nav className="nav">
+        <nav className={`nav ${props.showSidebar ? "show" : ""}`}>
             <div className="logo-cont">
                 <img src={logo} alt="Express Lands" className="logo" />
             </div>

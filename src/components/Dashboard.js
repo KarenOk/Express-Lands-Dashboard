@@ -4,9 +4,9 @@ import Status from "../components/Status";
 import Budget from "../components/Budget";
 import Statistics from "../components/Statistics";
 
-function Dashboard() {
+function Dashboard(props) {
     return (
-        <main className="dashboard">
+        <main className={`dashboard ${props.showSidebar ? "show-sidebar" : ""}`} onClick={props.removeSidebar}>
             <div className="heading">
                 <h2>Dashboard</h2>
                 <span className="date"> {(new Date()).toDateString()}</span>

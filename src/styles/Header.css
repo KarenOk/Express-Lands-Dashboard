@@ -6,7 +6,8 @@ header {
     height: 72px;
     padding: 0 42px;
     box-shadow: 0 10px 24px 2px #F6F6F8;
-    margin-left: 243px;
+    /* margin-left: 243px; */
+    margin-left: 0;
 }
 
 header .menu:hover {
@@ -55,5 +56,11 @@ header .avatar {
 @media only screen and (max-width: 1190px) {
     header {
         margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    header.show-sidebar {
+        margin-left: 243px;
     }
 }

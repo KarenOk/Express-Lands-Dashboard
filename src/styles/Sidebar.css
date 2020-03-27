@@ -2,10 +2,16 @@ nav {
     width: 90%;
     max-width: 243px;
     height: 100vh;
+    margin-left: -2000px;
     overflow-y: scroll;
     position: fixed;
+    z-index: 1000;
     color: white;
     background-image: linear-gradient(135deg, #13244e 38%, #1D4063 38%, #1D4063 55%, #13244e 55%, #13244e 64%, #1D4063 64%, #1D4063 80%, #13244e 80%, #13244e 100%);
+}
+
+nav.show {
+    margin-left: 0;
 }
 
 nav .logo-cont {
@@ -45,10 +51,4 @@ nav .nav-icon {
     height: 16px;
     margin-left: 16px;
     margin-right: 10px;
-}
-
-@media only screen and (max-width: 1190px) {
-    nav {
-        margin-left: -2000px;
-    }
 }
