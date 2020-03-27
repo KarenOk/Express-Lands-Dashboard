@@ -1,0 +1,77 @@
+.budget {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 10px 24px 2px rgb(233, 233, 235);
+    margin-right: 26px;
+    margin-top: 24px;
+}
+
+.budget .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.budget .heading .left>* {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.budget .heading .left img {
+    float: left;
+    margin-top: 4px;
+}
+
+.budget .heading h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.budget .heading .amount {
+    font-size: 21px;
+    font-weight: 600;
+    padding: 5px 15px;
+    color: #512c62;
+    background-color: rgba(81, 44, 98, 0.2);
+    border-radius: 6px;
+}
+
+.budget .heading .right {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #4dd599;
+    border-radius: 6px;
+    background-color: rgba(77, 213, 153, 0.2);
+    cursor: pointer;
+}
+
+.budget .content-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 33px 0;
+}
+
+.budget .progress-cont {
+    width: 150px;
+}
+
+.budget .value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.budget .value img {
+    margin-right: 8px;
+}
+
+.budget .details p:first-of-type {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.budget .details p:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: 600;
+}

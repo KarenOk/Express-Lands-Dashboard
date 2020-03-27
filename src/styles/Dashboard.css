@@ -1,0 +1,44 @@
+.dashboard {
+    padding: 42px;
+    margin-left: 243px;
+}
+
+.dashboard>.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard h2 {
+    margin: 0;
+    font-size: 22px;
+    font-family: France;
+    font-weight: bold;
+    color: #13244e;
+}
+
+.dashboard .date {
+    font-size: 14px;
+}
+
+.dashboard .cont-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard .cont-1 section:first-of-type {
+    flex: 2;
+    margin-right: 26px;
+}
+
+.dashboard .cont-1 section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.dashboard>section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

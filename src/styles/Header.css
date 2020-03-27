@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 42px;
+    box-shadow: 0 10px 24px 2px #F6F6F8;
+    margin-left: 243px;
+}
+
+header .menu:hover {
+    cursor: pointer;
+}
+
+header .user {
+    display: flex;
+    align-items: center;
+}
+
+header .avatar {
+    width: 34px;
+    height: 34px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.user .details {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    cursor: pointer;
+}
+
+.user .name, .user .role {
+    display: block;
+    margin: 5px;
+}
+
+.user .name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.user .role {
+    font-size: 11px;
+}
+
+.user .dropdown {
+    font-size: 15px;
+    color: #3f3356;
+    margin: 5px;
+}

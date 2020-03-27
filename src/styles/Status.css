@@ -1,0 +1,28 @@
+.status {
+    height: 165px;
+    background-color: white;
+    box-shadow: 0 10px 24px 2px rgb(233, 233, 235);
+}
+
+.status .heading {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+.status .heading h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.status .value {
+    font-size: 37px;
+    font-weight: 600px;
+    text-align: center;
+    background-color: #F0F3F9;
+    margin: 10px 20px;
+    height: 71px;
+    line-height: 71px;
+    vertical-align: middle;
+}
