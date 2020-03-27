@@ -31,7 +31,7 @@ class App extends React.Component {
 
         <div className="content">
           <Header toggleSidebar={this.toggleSidebar} showSidebar={this.state.showSidebar} />
-          <Dashboard removeSidebar={this.toggleSidebar} showSidebar={this.state.showSidebar} />
+          <Dashboard removeSidebar={this.removeSidebar} showSidebar={this.state.showSidebar} />
         </div>
       </div>
     );
