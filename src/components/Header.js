@@ -8,7 +8,7 @@ import avatar3x from "../images/avatar@3x.png";
 function Header() {
     return (
         <header className="header">
-            <img src={menu} alt="Menu" />
+            <img src={menu} alt="Menu" class="menu" />
 
             <div className="user">
                 <img src={avatar} srcSet={`${avatar2x} 2x, ${avatar3x} 3x`} alt="Okonkwo Karen" className="avatar" />

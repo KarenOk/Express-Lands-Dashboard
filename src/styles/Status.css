@@ -2,6 +2,7 @@
     height: 165px;
     background-color: white;
     box-shadow: 0 10px 24px 2px rgb(233, 233, 235);
+    margin: 16px 0;
 }
 
 .status .heading {
@@ -25,4 +26,11 @@
     height: 71px;
     line-height: 71px;
     vertical-align: middle;
+}
+
+@media only screen and (max-width: 950px) {
+    /* .status {
+        width: 70%;
+        margin: 0;
+    } */
 }

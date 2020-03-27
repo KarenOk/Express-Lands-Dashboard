@@ -2,7 +2,7 @@
     background-color: white;
     box-shadow: 0 10px 24px 2px rgb(233, 233, 235);
     margin-top: 24px;
-    width: 40%;
+    width: 90%;
     padding: 20px 40px;
     font-size: 14px;
 }
@@ -27,4 +27,16 @@
 
 .statistics .balance {
     color: #c00202;
+}
+
+@media only screen and (min-width: 600px) {
+    .statistics {
+        width: 70%
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .statistics {
+        width: 40%
+    }
 }

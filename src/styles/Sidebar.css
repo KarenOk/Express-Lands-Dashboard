@@ -46,3 +46,9 @@ nav .nav-icon {
     margin-left: 16px;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 1190px) {
+    nav {
+        margin-left: -2000px;
+    }
+}

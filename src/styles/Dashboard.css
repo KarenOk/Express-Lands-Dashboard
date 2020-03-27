@@ -22,7 +22,8 @@
 
 .dashboard .cont-1 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dashboard .cont-1 section:first-of-type {
@@ -39,6 +40,23 @@
 
 .dashboard>section {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+}
+
+@media only screen and (min-width: 950px) {
+    .dashboard .cont-1 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dashboard>section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    .dashboard {
+        margin-left: 0;
+    }
 }
